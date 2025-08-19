@@ -19,9 +19,9 @@
         <li>Go back home</li>
         <li>Have dinner</li>
         <li>Sleep</li>
-    </ol> <!-- numbered list types: "1" = numbered; "A" = alphabetical uppercase; "a" = alphabetical lowercase; "I" = uppercase roman numbers; "i" lowercase roman numbers  -->
-    <p>We created the numbered list using the &lt;ol&gt; tag</p>
-    <p>Each item needs to be inside the &lt;li&gt; tag to be part of the list</p>
+    </ol> <!-- numbered list types: "1" = numeric; "A" = alphabetical uppercase; "a" = alphabetical lowercase; "I" = uppercase roman numbers; "i" lowercase roman numbers  -->
+    <p><ins>We created the numbered list using the &lt;ol&gt; tag</ins></p>
+    <p><ins>Each item needs to be inside the &lt;li&gt; tag to be part of the list</ins></p>
     <h2>Unnembered Lists</h2>
     <ul type="circle">
         <li>Bread</li>
@@ -32,7 +32,58 @@
         <li>Rice</li>
         <li>Bean</li>
     </ul> <!-- unnumbered list types: "disc" = full disc symbol (standard); "circle" = empty circle; "square" = square symbol -->
-     <p>We created the unnumbered list using the &lt;ul&gt; tag</p>
-     <p>Each item needs to be inside the &lt;li&gt; tag to be part of the list</p>
+     <p><ins>We created the unnumbered list using the &lt;ul&gt; tag</ins></p>
+     <p><ins>Each item needs to be inside the &lt;li&gt; tag to be part of the list</ins></p>
+     <h2>Joining Lists V1.0 - Fav Tools</h2>
+     <ol>
+        <li>Old Tools</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>New Tools</li>
+        <ol type="a" start="5"> <!-- even using alphabetical order, "start" is a numeric element -->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+     </ol>
+     <h2>Joining Lists V2.0 - Fav Games</h2>
+     <ul>
+        <li>NES</li>
+        <ol type="I">
+            <li>Super Mario</li>
+                <ul type="circle">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+            <li>Ninja Gaiden</li>
+        </ol>
+        <li>SNES</li>
+        <ol type="I">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ol>
+        <li>Playstation</li>
+        <ol type="I">
+            <li>God of War</li>
+            <li>Call od Duty</li>
+        </ol>
+     </ul>
+     <h2>Definition List</h2>
+     <dl> <!-- tag for defition list -->
+        <dt>HTML</dt> <!-- term tag -->
+        <dd>Markup language for creating website content</dd> <!-- description tag -->
+        <dt>CSS</dt>
+        <dd>Markup language for creating website design</dd>
+        <dt>JavaScript</dt>
+        <dd>Programming language for website interactivity</dd>
+     </dl>
+     <p><ins>In order to create a definition list, we use &lt;dl&gt; tag</ins></p>
+     <p><ins>For the list's term, we use &lt;dt&gt; tag</ins></p>
+     <p><ins>For the list's description, we use &lt;dd&gt; tag</ins></p>
 </body>
 </html>
