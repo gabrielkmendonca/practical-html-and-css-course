@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Media</title>
+</head>
+<body>
+    <h1>Dynamic Images</h1>
+    <p>Try to open this file on different devices or just change the browser size</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/image-s.png" type="image/png"> <!-- "source:media:type" tag -->
+        <source media="(max-width: 1050px)" srcset="images/image-m.png" type="image/png"> <!-- adjust "srcset" to select wich image needs to be shown, and "type" to select the media type-->
+        <img src="images/image-b.png" alt="flexible image"> <!-- the bigger image needs to be below the source tag -->
+    </picture>
+    <!-- the source tags needs to follow a order, from lower to higher size, or else it's not gonna work -->
+</body>
+</html>
