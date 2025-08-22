@@ -7,13 +7,28 @@
 </head>
 <body>
     <h1>Dynamic Images</h1>
-    <p>Try to open this file on different devices or just change the browser size</p>
+    <p>Try to open this file on different devices, or just change the browser size</p>
 
     <picture>
-        <source media="(max-width: 750px)" srcset="images/image-s.png" type="image/png"> <!-- "source:media:type" tag -->
+        <source media="(max-width: 750px)" srcset="images/image-s.png" type="image/png"> <!-- "<source:media:type>" tag -->
         <source media="(max-width: 1050px)" srcset="images/image-m.png" type="image/png"> <!-- adjust "srcset" to select wich image needs to be shown, and "type" to select the media type-->
         <img src="images/image-b.png" alt="flexible image"> <!-- the bigger image needs to be below the source tag -->
     </picture>
     <!-- the source tags needs to follow a order, from lower to higher size, or else it's not gonna work -->
+
+    <h1>Playing Audio</h1>
+    <p>Let's learn how to play audio in HTML5</p>
+    <audio src="audio/city-lights-audio.mp3" controls autoplay loop></audio> <!-- "<audio>" tag -->
+    <!-- "controls" for controls painel; "autoplay" for autoplay audio (some browsers don't work); "loop" for audio looping -->
+
+     <p>There is a better way to insert audio — check the code for comments</p>
+
+    <audio preload="metadata" controls autoplay loop> 
+    <!-- preload options: auto — default (download full midia on page load); metadata (fully download only after click); none (don't pre download midia info)-->
+        <source src="audio/city-lights-audio.mp3" type="audio/mpeg"> <!-- "<source:src>" tag -->
+        <source src="audio/city-lights-audio.ogg" type="audio/ogg">
+        <source src="audio/city-lights-audio.wag" type="audio/wag"> <!-- not recommended — heavy file type -->
+        <p>Unfortunately your browrser cannot play audio. <a href="audio/city-lights-audio.mp3">Click here to download mp3 file</a></p> <!-- only show if none of the audio types worked -->
+    </audio> <!-- this way of use is recommended to increase the success of the audio play -->
 </body>
 </html>
