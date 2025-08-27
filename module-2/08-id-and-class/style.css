@@ -1,0 +1,32 @@
+/* html class = css .  — html id = css # */
+
+*{
+    padding: 10px;
+}
+body{
+    background-color: rgb(125, 250, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(7, 184, 60);
+}
+h1#main{ /* tag <h1> with id 'main' */
+    text-align: center;
+    background-color: rgb(7, 184, 60);
+    color: white;
+}
+h2{
+    color: rgb(52, 99, 60);
+}
+.basic{ /* every term with class basic */
+    color: rgb(52, 99, 60);
+}
+.intermediate{
+    color: rgb(179, 176, 20);
+}
+.advanced{
+    color: rgb(151, 33, 18);
+}
+.emphasis{
+    background-color: rgba(184, 212, 20, 0.781);
+}
