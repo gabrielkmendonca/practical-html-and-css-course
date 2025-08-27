@@ -1,0 +1,44 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 15px;
+            margin: 15px auto;
+            width: 200px;
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-style: italic;
+            padding: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 15px;
+            margin: 15px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(116, 115, 115);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }

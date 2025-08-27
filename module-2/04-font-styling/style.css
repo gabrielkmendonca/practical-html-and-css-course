@@ -1,0 +1,23 @@
+ body{
+    font-family: Arial, Helvetica, sans-serif; /* safe combination */
+    font-size: 16px;
+    /*
+    absolute measure — cm, mm, in, px, pt, pc
+    relative measure — em, ex, rem, vw, vh, %
+    recommended — px and em
+    standard font-size — 16px 1em
+    */
+    font-weight: bold;
+    /* font-weight: 
+    literal — lighter; normal; bold; bolder 
+    numeric — 100 to 900
+    */
+    font-style: italic;
+}
+h1{
+    font: italic bold 3em verdana sans-serif;
+    /* 
+    shorthand font:
+     font-style -> font-weight -> font-size -> font-family
+    */
+}
