@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Fonts</title>
+    <style>
+        @font-face { /* for external downloaded fonts */
+            font-family: 'filxgirl';
+            src: url('fonts/Filxgirl.TTF') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            font-size: 16px;
+
+            /*
+            types of format()
+            - opentype — otf
+            - truetype — ttf
+            - embedded-opentype
+            - truetype-att (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family: 'filxgirl';
+            font-size: 2em;
+        }
+        h1{
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Title</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur asperiores error delectus earum laborum excepturi fugit aliquid alias, perferendis, praesentium qui? Quo excepturi non minus, at sed placeat perspiciatis! Laborum.</p>
+</body>
+</html>
