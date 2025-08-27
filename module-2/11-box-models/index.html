@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Models</title>
+    <style>
+        *{
+            padding: 10px 10px 10px 10px; 
+            /* shorthand padding — if all values are the same, it can be 'padding: 10px' */
+        }
+        h1{
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            border: 15px solid gray; 
+            /* shorthand border */
+            margin: 20px 20px 40px 20px;
+            /* shorthand margin
+            use 'auto' to automatically assume a value — can also be used to center the box*/
+            outline: 5px dashed salmon;
+            /* shorthand outline */
+        }
+        a{
+            border: 5px solid red
+        }
+        /* can use 'display' to change de box type */
+    </style>
+</head>
+<body>
+    <h1>Example of Box-Level</h1>
+    <p>Paragraph is an example of box-level, but <a href="#">a link is an inline-level box.</a> Let's see how it works.</p>
+    <p>Use the browser DevTools to check the box's info</p>
+    <!-- '#' in link's href means there is no url -->
+</body>
+</html>
