@@ -12,6 +12,8 @@
         nav{
             background-color: black;
             padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.377);
+            /* horizontal vertical blur spreadness color — always use color black with opacity lower than 50% */
         }
         nav > a {
             text-decoration: none;
