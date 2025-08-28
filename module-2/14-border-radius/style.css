@@ -1,0 +1,61 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 15px;
+            margin: 15px auto;
+            width: 200px;
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.377);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-style: italic;
+            padding: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 20px 0px 20px 0px; /* can be used as 'border-radius: 20px 0px' */
+            /* top-left top-right bottom-right bottom-left 
+               if all corners are the same radius, can be like 'border-radius: 20px'
+            */
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(116, 115, 115);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#ball{
+            background-color: white;
+            height: 110px;
+            width: 110px;
+            margin: 10px auto;
+            border-radius: 50%;
+            /* this border-radius setting transforms the block into a circle */
+        }
