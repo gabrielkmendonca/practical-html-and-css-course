@@ -1,0 +1,11 @@
+h1{
+    border: 20px solid; /* solid border is needed to use border-image */
+    border-image: url(custom-border.png) 31 repeat;
+    /* shorthand border-image 
+        border-image-source border-image-slice border-image-repeat
+    */
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
