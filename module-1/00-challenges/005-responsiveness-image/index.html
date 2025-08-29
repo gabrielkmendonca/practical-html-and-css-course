@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness Image</title>
+    <style>
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexible Image</h1>
+    <p>Are you seeing the full image? Change the display width and test it out.</p>
+    <picture>
+        <source media="(max-width: 740px)" srcset="images/view-s.png">
+        <source media="(max-width: 1200px)" srcset="images/view-m.png">
+        <img src="images/view-b.png" alt="view image big">
+    </picture>
+</body>
+</html>
