@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Image Responsiveness</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            min-width: 320px;
+            max-width: 800px;
+            /* min and max width for block responsiveness */
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testing Image Responsiveness</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, consectetur. Odio, fuga ducimus qui praesentium ex ullam. Sapiente sint adipisci omnis aliquid, incidunt reiciendis, voluptatibus excepturi voluptate dolor, aperiam ut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eius ad distinctio amet quisquam! Vero minus dolorem quam, odio reiciendis unde, in repellat sit suscipit illum, aperiam iste facere dolorum.</p>
+        <picture> <!-- used to change images based on screen width -->
+            <source media="(max-width: 600px)" srcset="images/irina-blok-sm.jpg">
+            <img src="images/irina-blok.jpg" alt="Bugdroid creator Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nobis corrupti amet nulla aspernatur animi magnam exercitationem fuga provident? Mollitia molestias dolorem minima aspernatur in magnam animi reprehenderit, recusandae maiores.</p>
+    </main>
+</body>
+</html>
