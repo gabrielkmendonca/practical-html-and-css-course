@@ -12,7 +12,7 @@ body{
 header{
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.932);
     height: 100px;
     min-width: 800px;
 }
