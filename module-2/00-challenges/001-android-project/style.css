@@ -42,7 +42,7 @@ header{
     color: white;
     background-image: linear-gradient(to bottom, var(--color2), var(--color5));
     min-height: 150px;
-    min-width: 440px;
+    min-width: 480px;
     text-align: center;
     padding-top: 30px;
     text-shadow: 2px 2px 0px #5c5c5c;
@@ -145,7 +145,7 @@ footer{
     text-align: center;
     background-color: var(--color5);
     padding: 5px;
-    min-width: 440px;
+    min-width: 480px;
 }
 footer a{
     color: white;
