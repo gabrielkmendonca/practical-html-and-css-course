@@ -1,0 +1,21 @@
+#container{
+    position: relative;
+    padding: 10px;
+    height: 100vh;
+    /* 100vh means 100% of the viewport */
+    background-color: purple;
+    background-image: url(images/target001.png);
+    background-size: 100% 100%;
+}
+#content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* all steps above are necessary to centralize the content block */
+    width: 400px;
+    height: 200px;
+    background-color: #7011D9;
+    background-image: url(images/target001.png);
+    background-size: 100% 100%;
+}
