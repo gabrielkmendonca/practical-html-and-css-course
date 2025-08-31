@@ -1,0 +1,6 @@
+body{
+    color: white;
+    background-image: url(images/pattern001.png);
+    background-repeat: repeat-x;
+    /* by deafult, the background-repeat has the value 'repeat', repeating on the X and Y axis */
+}

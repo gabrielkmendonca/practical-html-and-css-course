@@ -1,0 +1,20 @@
+div{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+div#d1{
+    background-color: blue;
+    /* solid background color */
+}
+div#d2{
+    background-image: linear-gradient(to top, red, orange, yellow);
+    /* linear background color */
+}
+div#d3{
+    background-image: url('images/pattern001.png');
+    /* custom background image */
+}
