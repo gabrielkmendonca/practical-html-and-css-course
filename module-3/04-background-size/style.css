@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    /* 100vh means 100% of the viewport */
+    background-image: url(images/wallpaper002.jpg);
+    background-position: center center;
+    /* position the image to be center-oriented */
+    background-repeat: no-repeat;
+    /* make sure the image doesn't repeat */
+    background-size: cover;
+    /* make sure the image covers the viewport */
+    /* background-size can be measure, percentage and written */
+}
+main{
+
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
