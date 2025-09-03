@@ -7,10 +7,23 @@ table{
     text-align: center;
     margin: auto;
 }
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(187, 186, 186);
+    padding: 5px;
+}
 th, td{
     border: 1px solid black;
     padding: 10px;
 }
+tbody > tr:nth-child(odd){ /* can also be '(2n-1)' */ 
+    background-color: white;
+}
+tbody > tr:nth-child(even){ /* can also be '(2n)' */ 
+    background-color: lightgray;
+}
+/* ':nth-child()' is used to style determined lines of the table without using HTML*/
 thead, tfoot{
     background-color: grey;
     color: white;
