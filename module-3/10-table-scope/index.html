@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Scope</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Gender</th>
+                <!-- use scope for semantic configuration -->
+                <th scope="col">Name</th>
+                <!-- 'col' is used when its data are in only one column -->
+                <th colspan="3" scope="colgroup">Movies</th>
+                <!-- 'colgroup' is used when its data are in more than one column -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Women</th>
+                <!-- 'rowgroup' is used when its data are in more than one row -->
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Avengers</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souze</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Untouchable</td>
+                <td>Amnesia</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Men</th>
+                <td>Bruno Mendonça</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Gladiator</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Old Boy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Otaviano Mota</td>
+                <td>Star Wars</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Total of Films</th>
+                <!-- 'row' is used when its data are in only one column -->
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
