@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead, tfoot{
+    background-color: grey;
+    color: white;
+}
+td.num{
+    text-align: right;
+}
