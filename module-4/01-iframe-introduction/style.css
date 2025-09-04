@@ -1,0 +1,5 @@
+iframe{
+    height: 250px; /* default value is 150px */
+    width: 500px; /* default value is 300px */
+    border: 1px solid black;
+}
