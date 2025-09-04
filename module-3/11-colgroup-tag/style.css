@@ -1,0 +1,28 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+caption{
+    font-size: 1.2em;
+    background-color: lightgrey;
+    font-weight: bold;
+    padding: 10px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+col#cname{
+    background-color: rgba(255, 255, 0, 0.575);
+}
+col#cgender{
+    background-color: rgba(0, 128, 0, 0.459);
+}
+col#cage{
+    background-color: rgba(0, 0, 255, 0.411);
+}
+col#cjob{
+    background-color: rgba(255, 0, 0, 0.486);
+}
