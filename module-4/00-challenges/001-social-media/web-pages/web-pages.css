@@ -1,15 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
     margin-bottom: -4px;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
-img{
+
+img {
     width: 100vw;
 }
+
 a#linkedin {
     display: block;
     background-color: #0a7fb99a;
@@ -19,9 +22,11 @@ a#linkedin {
     font-weight: bold;
     text-decoration: none;
 }
-a#linkedin:hover{
+
+a#linkedin:hover {
     background-color: #0A7EB9;
 }
+
 a#github {
     display: block;
     background-color: #5c5c5c;
@@ -31,6 +36,7 @@ a#github {
     font-weight: bold;
     text-decoration: none;
 }
-a#github:hover{
+
+a#github:hover {
     background-color: black;
 }
