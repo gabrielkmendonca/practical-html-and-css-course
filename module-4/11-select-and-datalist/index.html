@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <p>
+            <label for="sta">State</label>
+            <select name="State" id="sta">
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="job">Job</label>
+            <input type="text" name="job" id="job" list="joblist">
+            <datalist id="joblist">
+                <option>administrator</option>
+                <option>Accountant</option>
+                <option>Developer</option>
+                <option>Teacher</option>
+            </datalist>
+            <!-- datalist allows to insert a new option, if its not already an available option -->
+        </p>
+    </form>
+</body>
+
+</html>
