@@ -1,22 +1,27 @@
-table{
+table {
     border-collapse: collapse;
     text-align: center;
     margin: auto;
 }
-caption{
+
+caption {
     font-size: 1.2em;
     background-color: grey;
     color: white;
     padding: 10px;
 }
-th, td{
+
+th, td {
     padding: 10px;
     border: 1px solid black;
 }
-tr:nth-child(2n){
+
+tr:nth-child(2n) {
     background-color: lightgrey;
-} 
-div{
+}
+
+div {
     overflow-x: auto;
 }
+
 /* the div will overflow on the end of the screen, and not all page elements */
