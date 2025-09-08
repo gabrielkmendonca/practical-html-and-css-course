@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Output</title>
+</head>
+
+<body>
+    <h1>Number Output</h1>
+    <form action="">
+        <p>
+            <label for="num1">1° Number</label>
+            <input type="number" name="num1" id="num1" min="0" max="50" required oninput="sum.innerHTML = Number(num1.value) + Number(num2.value)">
+        </p>
+        <p>
+            <label for="num2">2° Number</label>
+            <input type="number" name="num2" id="num2" min="0" max="50" required oninput="sum.innerHTML = Number(num1.value) + Number(num2.value)">
+        </p>
+        <p>
+            <label for="sum">Sum: </label>
+            <output name="sum" id="sum">0</output>
+            <!-- output is used to show something on the screen -->
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+    <h1>Range Output</h1>
+    <form action="">
+        <p>
+            <label for="ran"></label>
+            <input type="range" name="ran" id="ran" oninput="range.innerHTML = Number(ran.value)">
+            <output name="range" id="range">50</output>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+
+</html>
