@@ -1,0 +1,58 @@
+/* Typical Devices Breakpoint
+---------------------------------------------------------------
+extra small devices (phones): 600px and down
+small devices (portrait tablets and big phones): 600px — 768px
+medium devices (landscape tablets): 768px — 992px
+large devices (laptops and desktops): 992px — 1200px
+extra large devices (large laptops and desktops): 1200px and up
+*/
+@media print{ /* printer */
+     body{
+        background-image: url(../images/back-print.jpg); /* doesn't work for print */
+        font-family: 'Courier New', Courier, monospace;
+    }
+    img#print{
+        display: block;
+        margin: auto;
+    }
+    img#mobile, img#tablet, img#pc, img#tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* tablet */
+    body{
+        background-image: url(../images/back-tablet.jpg);
+    }
+    img#tablet{
+        display: block;
+        margin: auto;
+    }
+    img#mobile, img#print, img#pc, img#tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){ /* desktop */
+    body{
+        background-image: url(../images/back-pc.jpg);
+    }
+    img#pc{
+        display: block;
+        margin: auto;
+    }
+    img#mobile, img#print, img#tablet, img#tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px){ /* tv */
+    body{
+        background-image: url(../images/back-tv.jpg);
+    }
+    img#tv{
+        display: block;
+        margin: auto;
+    }
+    img#mobile, img#print, img#pc, img#tablet{
+        display: none;
+    }
+}
