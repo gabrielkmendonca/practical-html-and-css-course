@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
+</head>
+<body>
+    <header>
+        <h1>Responsive Menu</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <!-- the icon for the "burguer" menu can be obtained seacrhing for google icons -->
+        <menu id="menuItems">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+                <li><a href="#">Option 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testing Responsive Menu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dicta, veniam voluptate possimus, dolorum quae amet est incidunt consectetur doloribus, itaque deleniti reprehenderit! Dolorem, perspiciatis beatae sequi illum dolor voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium! Fugiat odio, consequuntur labore voluptatem quibusdam tempore maiores tenetur dicta laboriosam incidunt? Dolores recusandae autem necessitatibus voluptatibus, aut porro laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti officia nesciunt recusandae iste placeat ipsa, laboriosam eaque at sapiente natus veritatis velit accusantium adipisci repellat necessitatibus facilis quam soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam veritatis, dolore, illo voluptates ducimus omnis odio eos nisi culpa inventore repellat quos fuga saepe ratione dolor ipsa? Optio, a!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae cupiditate nemo necessitatibus eveniet minus neque minima veritatis maiores ab quidem unde amet, quos repellat nobis eos vel pariatur suscipit nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis soluta expedita minus sit explicabo blanditiis commodi! Quam, dolore fuga sint illum qui molestias sit autem suscipit beatae, voluptate ducimus quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquam natus exercitationem. Voluptate, laborum dolorum. Voluptate laborum neque deserunt hic libero adipisci vitae cupiditate magnam, quod soluta repudiandae dignissimos minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit sint rerum repellat perspiciatis ad nulla, porro cupiditate impedit molestiae aspernatur tempore commodi, culpa, ducimus ut hic magnam vitae. Odio?</p>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab, excepturi consequatur placeat dolorem maiores est facilis adipisci! Quia vitae repellat dolorem voluptas a fugiat soluta veniam facilis earum atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus in consequatur temporibus reprehenderit laborum, pariatur magni iusto dolore corrupti sunt minima magnam, facere cupiditate illum distinctio, enim laboriosam itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eaque. Ex accusamus cum architecto debitis inventore numquam? Fugiat, eius libero ad consequuntur soluta obcaecati minima mollitia sint voluptate, nostrum porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aut provident debitis eius et magnam nemo! Quo, quasi incidunt. Animi eligendi sint suscipit voluptatem delectus natus ipsam harum numquam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis reprehenderit modi illum nam, vero veritatis tenetur sunt quod fugit repellendus tempore. Quis officia doloremque beatae, sapiente pariatur dolorum laboriosam.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+           if (menuItems.style.display == 'block'){
+                menuItems.style.display = "none"
+           } else{
+                menuItems.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
