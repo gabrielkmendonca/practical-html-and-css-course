@@ -1,0 +1,29 @@
+/*
+Flex direction:
+ row: horizontal (left-right)     row-reverse: horizontal (right-left)
+ column: vertical (top-bottom)    column-reverse: vertical (bottom-top)
+
+Axis: 
+ main-axis  — main-start and main-end 
+ cross-axis — cross-star and cross-end
+Start and end corresponds to the start and the end of the container on the axis direction
+
+Both axis follows the direction of the container:
+ row: - main is left-right         row-reverse: - mais is right-left
+      - cross is top-bottom                     - cross is top-bottom
+
+ column: - main is top-bottom      column-reverse: - main is bottom-top
+         - cross is left-right                     - cross is left-right
+*/
+div.container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    padding: 10px;
+    text-align: center;
+}
+div.item{
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+}
