@@ -1,0 +1,12 @@
+/* for flexbox, always use "display: flex" on the parent container, not the children */
+
+div.container{
+    display: flex;
+    background-color: lightsalmon;
+    padding: 10px;
+}
+div.item{
+    background-color: salmon;
+    margin: 10px;
+    flex: auto;
+}
