@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px){
+    section{
+        width: 90vw;
+        height: 300px;
+    }
+    div#image{
+        float: left;
+        width: 40%;
+        height: 100%
+    }
+    div#form{
+        float: right;
+        width: 60%;
+    }
+    input{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 992px){
+    section{
+        width: 992px;
+        height: 280px;
+    }
+    div#image{
+        float: right
+    }
+    div#form{
+        float: left;
+    }
+    input{
+        width: 92%;
+    }
+}
