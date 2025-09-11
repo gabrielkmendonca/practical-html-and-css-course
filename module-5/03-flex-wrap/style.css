@@ -1,0 +1,20 @@
+/*
+Flex wrap: always break from the main-end to main-start
+  nowrap (default): doesn't break the container if the screen is smaller than the content
+  wrap: breaks (into cross direction) the container if the screen is smaller than the content
+  wrap-reverse: breaks (opposite to cross direction) the container if the screen is smaller than the content
+*/
+div.container{
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-flow is the shorthand for flex direction and flex wrap */
+    background-color: lightsalmon;
+    padding: 10px;
+    text-align: center;
+}
+div.item{
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+    flex: auto;
+}
