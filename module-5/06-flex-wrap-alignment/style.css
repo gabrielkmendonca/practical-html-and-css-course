@@ -1,0 +1,22 @@
+/*
+Cross ALignment with Wrap
+    align-content: - stretch (default)
+                   - flex-start
+                   - flex-end
+                   - center
+                   - space-between
+                   - space-evenly
+                   - space-around             
+*/
+div.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    background-color: lightsalmon;
+    height: 400px;
+}
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 40px;
+}
