@@ -1,0 +1,30 @@
+/*
+Flex Main Alignment
+  justify-content: - flex-start (default — start of the main-axis)
+                   - flex-end (end of the main-axis)
+                   - center
+                   - space-between (first item on the start, last on the end, and the others equally spaced in the center)
+                   - space-evenly (all the children are equally spaced on its surroundings)
+                   - space-around (divides the container for the amount of children and center them)
+
+Flex Cross Alignment
+  align-items:     - stretch (default — stretchs the element along the cross-axis)
+                   - flex-start (start of the cross-axis)
+                   - flex-end (end of the cross-axis)
+                   - center
+
+*/
+div.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: lightsalmon;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+div.item{
+    background-color: salmon;
+    padding: 10px;
+    height: 20px;
+}
