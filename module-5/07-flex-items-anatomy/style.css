@@ -1,0 +1,62 @@
+/*
+Flexbox Items Properties
+    order: 
+    - used to determine the display order for the item (by default they are all '0'). If there are more than one item with the same order, they follow the direction order
+
+    align-self:
+    - used to determine the alignment of the item on the cross-axis: 
+        - auto/inherit (default): uses the alignment of the parent
+        - flex-start: start of the cross-axis
+        - flex-end: end of the cross-axis
+        - center
+        - stretch
+
+    flex-basis:
+    - determines the item's size on the main-axis
+        - auto (default): determined by the content size
+        - XXXpx: determines the width in pixels, as long as the item fits on the free space
+*/
+div.container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-evenly;
+    background-color: lightsalmon;
+    height: 400px;
+}
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 40px;
+    flex-basis: auto;
+}
+div#a{
+    order: 0;
+    align-self: auto;
+}
+div#b{
+    order: -2;
+    align-self: flex-start;
+    flex-basis: 150px;
+}
+div#c{
+    order: 4;
+    align-self: flex-end;
+    flex-basis: 30px;
+    padding: 0;
+}
+div#d{
+    order: 8;
+    align-self: center;
+}
+div#e{
+    order: -2;
+    align-self: inherit;
+}
+div#f{
+    order: 0;
+    align-self: flex-start;
+}
+div#g{
+    order: -4;
+    align-self: center;
+}
