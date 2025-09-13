@@ -45,7 +45,6 @@ div.media{
 div.media > img{
     display: block;
     margin: auto;
-    width: 300px;
 }
 div.media > iframe{
     display: block;
