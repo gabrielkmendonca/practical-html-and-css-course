@@ -1,0 +1,16 @@
+div.container{
+    border: 2px solid black;
+    height: 300px;
+    display: grid;
+    /* transforms the container into a grid */
+    grid-template-columns: auto auto auto; 
+    /* determines the size of each column, and the amount of values is the amount of columns */
+    grid-template-rows: auto auto auto;
+    /* determines the size of each row, and the amount of values is the amount of rows */
+    gap: 5px;
+    /* determines the size of the gap between each grid-item */
+}
+div.item{
+    border: 2px solid red;
+    margin: 10px;
+}
