@@ -1,0 +1,16 @@
+/*
+Repeat
+    - instead of using a property that repeats the same value many times, like "grid-template: 100px 100px 100px / auto auto auto" we can shorten the property value using "repeat" just like "grid-template: repeat(3,100px) / repeat(3, auto)". The parenthesis' values are ("how many times to repeat", "what to repeat").
+*/
+
+div.container{
+    border: 2px solid black;
+    display: grid;
+    grid-template: repeat(3,100px) / repeat(3, auto);
+    gap: 5px;
+    grid-auto-rows: 100px;
+}
+div.item{
+    border: 2px solid red;
+    margin: 10px;
+}
