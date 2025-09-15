@@ -1,5 +1,9 @@
 /*
 Grid Container Simplifying Propterties
+    - grid-auto-flow:   - row
+                        -column
+---------------------- determines wich direction the items will be displayed ---------------------------------------------
+
     - grid-auto-row: 000px (allows the system to automatically add a new row to the container, if necessary)
     - grid-auto-column: 000px (allows the system to automatically add a new column to the container, if necessary)
 -------------------- both of them only works if the respective grid-template isn't setted to "auto"-----------------------
